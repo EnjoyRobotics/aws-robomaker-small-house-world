@@ -708,6 +708,15 @@
         <pose frame=''>-2.396624 4.387607 0.502739 0 -0 0</pose>
 	</model>
 
+
+    <model name='aruco_marker'>
+        <static>true</static>
+        <include>
+            <uri>model://aruco_box</uri>
+        </include>
+        <pose frame=''>-1.5 0. 0.25 0 -0 0</pose>
+    </model>
+
     <!-- Lights !-->
     <!--
     <light name='sun' type='directional'>
